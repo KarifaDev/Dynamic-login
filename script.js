@@ -17,7 +17,7 @@ function validate() {
   }
   }
 
-  const uri = "http://webbred2.utb.hb.se/~fewe/api/api.php?data=students"; 
+  const uri = "https://webbred2.utb.hb.se/~fewe/api/api.php?data=students"; 
   fetch(uri) //Fetches the data from the API
   .then(response => response.json())
   .then(data => users = data);
